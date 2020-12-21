@@ -5,9 +5,77 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(222, 222, 222);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#root{
+  margin: 20px auto;
+  width: 750px;
+  font-family: "Times New Roman";
+}
+
+.logo{
+  text-align: center;
+  background: #b8c5dc;
+  margin: 10px auto;
+  padding: 10px 0;
+}
+.github-reference img{
+  width: 24px;
+}
+
+.cv-maker{
+  margin: auto;
+  box-shadow: 5px 5px rgb(174, 174, 174);
+  border: 3px black solid;
+  padding: 20px;
+  background-color: white;
+}
+
+.personal-data-section{
+  text-align: center;
+}
+.personal-data-section a{
+  margin: 5px 10px;
+}
+
+.job-content, .education-content{
+  margin: 20px auto;
+}
+
+.skills-paper{
+  display: block;
+  margin: 10px;
+  padding: 10px;
+}
+
+.skill-chip{
+  margin: 5px;
+}
+
+.MuiInputBase-root{
+  margin: 5px;
+}
+.MuiButtonBase-root.MuiButton-root.MuiButton-contained{
+  margin: 5px;
+}
+.MuiButton-containedSecondary{
+  float: right;
 }
